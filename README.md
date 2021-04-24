@@ -10,7 +10,7 @@ TO DO: remove unneeded dependencies from package.json
 2. [Create Astra Instance](#2-create-astra-instance)
 3. [Create a security token](#3-create-a-security-token)
 4. [Create table **genre** with GraphQL](#4-create-table-genre-with-graphql)
-5. [Insert data in**genre**  with GraphQL](#5-insert-data-in-the-table-with-graphql)
+5. [Insert data in **genre**  with GraphQL](#5-insert-data-in-the-table-with-graphql)
 6. [Retrieve values of **genre** table](#6-retrieving-list-of-values)
 7. [Create **movie** table](#7-creating-a-movies-table)
 8. [Insert values in **movie** table](#8-insert-values-in-movie-table)
