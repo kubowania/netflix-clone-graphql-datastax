@@ -307,8 +307,8 @@ query getMovieAction {
 ✅ Create `.env` file
 
 ```ini
-ASTRA_DB_APPLICATION_TOKEN=AstraCS:TWRvjlcrgfZYfhcxGZhUlAZH:2174fb7dacfd706a2d14d168706022010e99a7bb7cd133050f46ee0d523b386d
-ASTRA_GRAPHQL_ENDPOINT=https://fdf998b1-7d8e-4dfe-a13c-94d077b81037-europe-west1.apps.astra.datastax.com/api/graphql/netflix
+ASTRA_DB_APPLICATION_TOKEN={ your_token }
+ASTRA_GRAPHQL_ENDPOINT={ your_endpoint }
 ```
 👩‍💻  Install all the packages
 
