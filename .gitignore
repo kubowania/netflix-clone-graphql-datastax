@@ -2,6 +2,9 @@
 /.pnp
 .pnp.js
 package-lock.json
+.env
+venv
+build
 
 /coverage
 npm-debug.log*
