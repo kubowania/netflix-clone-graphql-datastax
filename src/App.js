@@ -31,7 +31,7 @@ const App = () => {
       {genres && (
         <div className="container">
           {Object.values(genres).map((genre) => (
-            <Section genre={genre.value} />
+            <Section key={genre.value} genre={genre.value} />
           ))}
         </div>
       )}
