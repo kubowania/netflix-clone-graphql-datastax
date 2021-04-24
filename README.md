@@ -271,7 +271,7 @@ mutation insertMovies {
     }
   }
 ```
-> ℹ️ To get more movie data check the file queries.md file
+> ℹ️ To get more movie data check the files in the `data` folder.
 
 *👁️ Expected output*
 ![image](img/graphql-playground-5.png?raw=true)
