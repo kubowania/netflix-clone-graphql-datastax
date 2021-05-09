@@ -18,8 +18,6 @@ const App = () => {
     setGenres(responseBody.data.reference_list.values)
   }
 
-  console.log(limit)
-
   useEffect(() => {
     fetchData()
   }, [limit])
@@ -30,8 +28,8 @@ const App = () => {
       <HeroSection />
       {genres && (
         <div className="container">
-          {Object.values(genres).map((genre) => (
-            <Section key={genre.value} genre={genre.value} />
+          {Object.values(genres).map((genre, index) => (
+            <Section key={index} genre={genre.value} />
           ))}
         </div>
       )}
