@@ -320,7 +320,7 @@ npm install
 ```bash
 netlify dev
 ```
-* make sure you have installed the netlify command line interface. You can do so by running: `npm install netlify-cli -g`
+note: (make sure you have installed the netlify command line interface. You can do so by running: `npm install netlify-cli -g`)
 
 ## TADA
 
