@@ -155,7 +155,7 @@ mutation insertGenres {
   independent: insertreference_list(value: {label:"genre", value:"Independent"}) {
      value{value}
   }
-  music: insertreference_list(value: {label:"genre", value:"Music & Musicals"}) {
+  music: insertreference_list(value: {label:"genre", value:"Music"}) {
      value{value}
   }
   romance: insertreference_list(value: {label:"genre", value:"Romance"}) {
