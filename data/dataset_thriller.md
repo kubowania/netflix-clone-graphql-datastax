@@ -3,7 +3,7 @@ mutation movies_dramas {
 
  jaws: insertmovies_by_genre(
     value: { 
-      genre:"Thrillers", 
+      genre:"Thriller", 
       year:2018,
       title:"Jaws",
       synopsis:"A movie about an angry Shark.",
