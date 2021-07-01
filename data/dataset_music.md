@@ -3,7 +3,7 @@ mutation movies_music {
 
   goldenage1: insertmovies_by_genre(
     value: { 
-      genre:"Music & Musicals", 
+      genre:"Music", 
       year:2004,
       title:"The Golden Age",
       synopsis:"A seemingly perfect family looks to fix their problems with the help of Miss Clara, an older, wiser woman.",
@@ -14,7 +14,7 @@ mutation movies_music {
 
    whiplash1: insertmovies_by_genre(
     value: { 
-      genre:"Music & Musicals", 
+      genre:"Music", 
       year:2014,
       title:"Whiplash",
       synopsis:"A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
