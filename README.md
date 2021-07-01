@@ -247,9 +247,9 @@ mutation insertMovies {
       duration:134,
       thumbnail:"https://i.imgur.com/L8k6Bau.mp4"}) {
     value{title}
-    }
+   }
   
-  	aliens: insertmovies_by_genre(value: { 
+  aliens: insertmovies_by_genre(value: { 
       genre:"Sci-Fi", 
       year:1986,
       title:"Aliens",
@@ -257,9 +257,9 @@ mutation insertMovies {
       duration:134,
       thumbnail:"https://i.imgur.com/QvkrnyZ.mp4"}) {
     value{title}
-    }
+   }
   
-    bladeRunner: insertmovies_by_genre(value: { 
+   bladeRunner: insertmovies_by_genre(value: { 
       genre:"Sci-Fi", 
       year:1982,
       title:"Blade Runner",
@@ -267,8 +267,8 @@ mutation insertMovies {
       duration:145,
       thumbnail:"https://i.imgur.com/xhhvmj1.mp4"}) {
     value{title}
-    }
-  }
+   }
+ }
 ```
 > ℹ️ To get more movie data check the files in the `data` folder.
 
